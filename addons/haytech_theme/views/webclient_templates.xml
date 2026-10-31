@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="layout" inherit_id="web.layout" name="HayTech favicon">
+        <xpath expr="//link[@rel='shortcut icon']" position="attributes">
+            <attribute name="t-att-href">x_icon or '/haytech_theme/static/src/img/haytech-icone-32.png'</attribute>
+        </xpath>
+    </template>
+
+    <template id="login_layout" inherit_id="web.login_layout" name="HayTech login">
+        <xpath expr="//div[hasclass('card-body')]/div[hasclass('text-center')]/img" position="attributes">
+            <attribute name="t-attf-src">/haytech_theme/static/src/img/haytech-logo-horizontal.svg</attribute>
+            <attribute name="alt">HayTech</attribute>
+        </xpath>
+        <xpath expr="//a[@target='_blank']" position="replace">
+            <a href="https://haytech.stream" target="_blank">Propulsé par <span>HayTech</span></a>
+        </xpath>
+    </template>
+</odoo>

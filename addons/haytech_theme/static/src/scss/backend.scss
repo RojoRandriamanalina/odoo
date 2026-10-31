@@ -1,0 +1,30 @@
+body, .o_web_client {
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+h1, h2, h3, .o_form_view .oe_title, .o_breadcrumb .active, .o_kanban_record .o_kanban_record_title {
+    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    letter-spacing: -.01em;
+}
+.o_main_navbar {
+    background: #0F2747;
+    border-bottom: 2px solid #14B8A6;
+}
+.o_main_navbar .o_menu_brand, .o_main_navbar .dropdown-toggle.o-dropdown {
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+}
+.o_main_navbar .o_menu_sections .o-dropdown--show, .o_main_navbar .o_menu_sections .o_nav_entry:hover {
+    background: rgba(20, 184, 166, .22);
+}
+.btn-primary {
+    --btn-bg: #0F766E;
+    --btn-border-color: #0F766E;
+    --btn-hover-bg: #115E59;
+    --btn-hover-border-color: #115E59;
+    border-radius: 8px;
+}
+.o_form_view .o_form_sheet, .o_kanban_record, .card {
+    border-radius: 12px;
+}
+.o_kanban_record { box-shadow: 0 1px 2px rgba(15, 39, 71, .06), 0 1px 3px rgba(15, 39, 71, .08); }
+a { color: #0F766E; }
+.o_home_menu_background { background: linear-gradient(135deg, #0F2747 0%, #1B365D 60%, #0F766E 130%); }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="base.main_company" model="res.company">
+        <field name="logo" type="base64" file="haytech_theme/static/src/img/haytech-logo-horizontal-1200.png"/>
+        <field name="primary_color">#0F2747</field>
+        <field name="secondary_color">#14B8A6</field>
+    </record>
+</odoo>
