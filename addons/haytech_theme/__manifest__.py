@@ -1,7 +1,7 @@
 {
     'name': 'Thème HayTech',
     'summary': 'Charte graphique HayTech (couleurs, polices, logo) pour Odoo',
-    'version': '18.0.1.0.0',
+    'version': '20.0.1.0.0',
     'category': 'Theme/Backend',
     'author': 'HayTech',
     'website': 'https://haytech.stream',
